@@ -1,7 +1,13 @@
-favoriteMovieGenre("fantasy");
-favoriteFruit("avocado");
-favoriteMode("dark");
-favoriteEdgeStyle("soft");
+favouriteMovieGenre("romantic");
+
+// watermelon, tomato, banana, orange, avocado, blueberry
+favouriteFruit("blueberry");
+
+// light, dark
+favouriteMode("light");
+
+// sharp, soft, round
+favouriteEdgeStyle("soft");
 
 function setProp(prop, value) {
   document.documentElement.style.setProperty(prop, value);
